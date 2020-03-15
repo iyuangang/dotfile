@@ -102,5 +102,3 @@ alias vzsh="vim ~/.zshrc"
 alias rzsh="source ~/.zshrc"
 alias ll="ls -lht"
 alias la="ls -lhta"
-alias size='f(){ du -sh $1* | sort -hr;  }; f'
-alias n='f(){ echo $1;  }; f'
