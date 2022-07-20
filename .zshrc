@@ -106,4 +106,4 @@ alias j="z"
 alias jh="z -I -t ."
 alias ju="z -b"
 
-eval "$(lua /home/timyuan/z.lua/z.lua --init zsh enhanced once echo fzf)"
+eval "$(lua /home/timyuan/.config/z.lua/z.lua --init zsh enhanced once echo fzf)"
