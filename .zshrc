@@ -98,7 +98,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vzsh="vim ~/.zshrc"
+alias vzsh="vi ~/.zshrc"
 alias rzsh="source ~/.zshrc"
 alias ll="ls -lht"
 alias la="ls -lhta"
+alias j="z"
+alias jh="z -I -t ."
+alias ju="z -b"
+
+eval "$(lua /home/timyuan/z.lua/z.lua --init zsh enhanced once echo fzf)"

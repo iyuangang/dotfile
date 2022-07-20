@@ -20,11 +20,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 echo "Install zsh plugin zsh-autosuggestions"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-echo "Install autojump"
-git clone https://github.com/wting/autojump
-cd autojump && ./install.py
-cd
-
 echo "Fresh zsh source"
 cp .zshrc $HOME
 source ~/.zshrc
